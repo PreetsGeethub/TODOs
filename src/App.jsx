@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Provider, useSelector, useDispatch } from 'react-redux'
-import { store } from './store/store'
+import store from "./Store/Store";
 import './App.css'
 import TodoForm from './components/TodoForm'
 import TodoItem from './components/TodoItem'
